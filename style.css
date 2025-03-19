@@ -73,15 +73,6 @@ body {
     transform: rotateY(-180deg);
 }
 
-/* Controller Buttons */
-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin: 10px;
-    transition: transform 0.5s;
-}
-
 button:focus {
     outline: none;
 }
@@ -93,17 +84,4 @@ button:hover i {
 i {
     font-size: 50px;
     color: gray;
-}
-
-/* Paper stack order */
-#p1 {
-    z-index: 3;
-}
-
-#p2 {
-    z-index: 2;
-}
-
-#p3 {
-    z-index: 1;
 }
