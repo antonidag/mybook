@@ -50,10 +50,6 @@ body {
     border-left: 3px solid powderblue;
 }
 
-.back {
-    z-index: 0;
-}
-
 .front-content,
 .back-content {
     width: 100%;
@@ -79,9 +75,4 @@ button:focus {
 
 button:hover i {
     color: #636363;
-}
-
-i {
-    font-size: 50px;
-    color: gray;
 }
