@@ -57,6 +57,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    word-wrap: break-word;
+    flex-direction: column; /* Ensures text flows correctly */
 }
 
 .back-content {
